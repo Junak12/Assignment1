@@ -1,7 +1,6 @@
+
 .section1 {
 
-    width: 1440px;
-    height: 328px;;
     margin-top: 120px;
     padding-left: 200px;
     padding-right: 200px;
@@ -13,7 +12,8 @@
 .section1div1child1{
     display: flex;
     flex-direction: column;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Raleway', sans-serif;
+    margin-top:120px;
 }
 .section1div1child1h2 {
     font-weight: 700;
@@ -37,7 +37,7 @@
 .section1div2 {
     display: flex;
     align-items: center;
-    margin-top: -40px;
+    margin-top: 40px;
 }
 .section1div2img {
     border-radius: 50px;
@@ -80,4 +80,101 @@
     margin-top: -70px;
     margin-left: 20px;
     color: rgb(101, 100, 100);
+}
+.section3 {
+    width: 1140px;
+    height: 580;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+.section3div1{
+    display: flex;
+    justify-content: center;
+}
+.section3div1h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+}
+.section3div2 {
+    margin-top: 20px;
+    background-color: #ffff;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3div2child-div3 {
+    display: flex;
+    gap: 20px;
+}
+.section3div2child-div3-div2 {
+    margin-top: -20px;
+}
+.section3div2child-div3-div2-p2 {
+    margin-top: -10px;
+    color: rgba(79, 78, 78, 0.303)
+}
+.section3div2child-div2-p{
+    margin-top: -10px;
+}
+.section3-top {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.section4 {
+    margin-left: 180px;
+    margin-top: 80px;
+    height: auto;
+}
+.section4div1 {
+    background-color: white;
+    width: 1140px;
+    height: auto;
+}
+.section4div1-div1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.section4div1-div1-h1 {
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.section4div1-div1-p {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+.section4div1-div1-but {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    width: 200px;
+    height: 48px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 10px;
+}
+.section4div2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.section4div2-img {
+    border-radius: 50px;
 }
