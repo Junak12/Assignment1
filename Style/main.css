@@ -42,3 +42,42 @@
 .section1div2img {
     border-radius: 50px;
 }
+.section2 {
+    width: 1140px;
+    height: 308px;
+    background-color: #cdcce8;
+    margin-left: 180px;
+    margin-top: 80px;
+}
+
+.section2div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.section2div1h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #252432;
+}
+.section2div2 {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: -50px;
+}
+.allh2 {
+    font-family: 'Inter',sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.allp {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -70px;
+    margin-left: 20px;
+    color: rgb(101, 100, 100);
+}
