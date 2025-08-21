@@ -1,0 +1,26 @@
+.footer {
+    background-color: #ffffff;
+}
+.footdiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-div-h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-left: 100px;
+}
+.footp {
+    margin: 50px;
+    margin-top: -30px;
+}
+.foot-but {
+    border: none;
+    display: flex;
+    gap: 4px;
+    margin-top: -30px;
+}
